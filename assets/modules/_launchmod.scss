@@ -1,0 +1,124 @@
+.indexbody {
+    background-color: $primary;
+}
+
+.language {
+    color: $secondary;
+    font-family: Crushed;
+    text-transform: uppercase;
+    font-size: 16px;
+    &-options {
+        li {
+            color: $secondary;
+            list-style-type: none;
+            font-family: Crushed;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.language {
+    &-options {
+        li>a {
+            color: $secondary;
+        }
+    }
+}
+
+
+.language {
+    &-options {
+        &-inactive {
+            text-decoration: none;
+        }
+    }
+}
+
+.launch {
+    &-logo {
+        img {
+            height: 20em;
+        }
+    }
+}
+
+.launch {
+    &-text {
+        text-transform: uppercase;
+        color: $secondary;
+        font-size: 18px;
+        font-family: Crushed;
+    }
+}
+
+.start {
+    &-text {
+        a {
+            text-transform: uppercase;
+            color: $secondary;
+            text-decoration: none;
+            font-family: Crushed;
+            background-color: $fifth;
+        }
+    }
+}
+
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width: $bp1) {
+    .launch {
+        &-logo {
+            img {
+                height: 30em;
+            }
+        }
+    }
+
+    .launch {
+        &-text {
+            font-size: 28px;
+        }
+    }
+
+    .language {
+        font-size: 18px;
+    }
+
+    .start {
+        &-text {
+            a {
+                border-radius: 2%;
+                height: 1em;
+                width: 10em;
+            }
+        }
+    }
+}
+
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width: $bp2) {
+    .launch {
+        &-logo {
+            img {
+                height: 36em;
+            }
+        }
+    }
+
+    .launch {
+        &-text {
+            font-size: 34px;
+        }
+    }
+
+    .language {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,65 @@
+.l-order {
+    &-header {
+        display: flex;
+    }
+}
+
+.cartItems {
+    .item1 {
+        display: flex;
+        justify-content: space-between;
+        line-height: 1px;
+    }
+}
+
+.firstItem {
+    line-height:1em;
+    margin-top:1em;
+span {
+    font-size: 14px;
+    font-style: italic;
+}}
+
+
+
+.burger-items,
+.sides-items,
+.bev-items {
+    margin-top: 1.25em;
+}
+
+.cstm {
+    display:flex;
+    margin:1em;
+    width:100%;
+    align-items:center;
+}
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width: $bp1) {
+    .burger-items,
+    .sides-items,
+    .bev-items {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        &>div {
+            flex: 0 0 45%;
+        }
+    }
+}
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width: $bp2) {
+    .burger-items,
+    .sides-items,
+    .bev-items {
+        &>div {
+            flex: 0 0 30%;
+        }
+    }
+}

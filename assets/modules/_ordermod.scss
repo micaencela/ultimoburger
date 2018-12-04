@@ -1,0 +1,267 @@
+   * {
+       // border: 1px red solid;
+   }
+
+   .order {
+       &-header {
+           height: 10em;
+           background-color: $primary;
+           border-bottom: 0.2em solid $fourth;
+       }
+   }
+
+
+   .order {
+       &-header>img {
+           height: 95%;
+           margin: auto;
+           display: block;
+       }
+   }
+
+   .order {
+       &-header>a {
+           font-size: 2em;
+           color: $secondary;
+       }
+   }
+
+   .order {
+       &-text {
+           font-size: 38px;
+           color: $secondary;
+           font-family: Crushed;
+           text-transform: uppercase;
+       }
+   }
+
+   footer {
+       background-color: $primary;
+       height: 85px;
+       margin-top: 3.5em;
+   }
+
+   body,
+   html {
+       height: 100%;
+       margin: 0;
+       font-family: Arial;
+   }
+   /*Tab links */
+
+   .tablink {
+       background-color: $fifth;
+       color: $secondary;
+       float: left;
+       border: 0;
+       outline: none;
+       cursor: pointer;
+       padding: 14px 16px;
+       font-size: 17px;
+       width: 33.33%;
+       border-radius: 0;
+       font-family: Crushed;
+       text-transform: uppercase;
+       font-size: 24px;
+   }
+
+   #item1,
+   #item2,
+   #item3,
+   #item4,
+   #item5,
+   #item6 {
+       margin: auto;
+       display: block;
+       width: 20em;
+       height: 24em;
+       img {
+           width: 60%;
+           margin: auto;
+           display: block;
+           ;
+       }
+   }
+
+   .sides-items {
+       #item1,
+       #item2,
+       #item3,
+       #item4,
+       #item5,
+       #item6 {
+           img {
+               width: 75%;
+           }
+       }
+   }
+
+   .bev-items {
+       #item1,
+       #item2,
+       #item3,
+       #item4,
+       #item5,
+       #item6 {
+           img {
+               width: 70%;
+           }
+       }
+   }
+
+   #item1,
+   #item2,
+   #item3,
+   #item4,
+   #item5,
+   #item6 {
+       h3 {
+           @include h3;
+       }
+   }
+
+   #item1,
+   #item2,
+   #item3,
+   #item4,
+   #item5,
+   #item6 {
+       p {
+           text-align: left;
+           margin: 1em 1em;
+           margin-top: 0.5em;
+       }
+   }
+
+
+   #item1,
+   #item2,
+   #item3,
+   #item4,
+   #item5,
+   #item6 {
+       h4 {
+           text-align: center;
+           margin-top: 0.5em;
+           font-size: 24px;
+           margin-bottom: 0;
+           font-family: Crushed;
+       }
+   }
+
+   .viewcart {
+       height: 100%;
+       width: 0;
+       position: fixed;
+       z-index: 1;
+       top: 0;
+       right: 0;
+       background-color: $secondary;
+       opacity: 0.95;
+       overflow-x: hidden;
+       padding-top: 20px;
+       transition: 0.5s;
+   }
+
+   .viewcart .closebtn {
+       position: absolute;
+       top: 0.3em;
+       left: 0.3em;
+       font-size: 30px;
+       margin-right: 50px;
+   }
+
+   .viewcart {
+       .orderdetails>h1 {
+           font-family: Crushed;
+           text-transform: uppercase;
+       }
+   }
+
+   .viewcart {
+       .closebtn {
+           color: $primary;
+       }
+   }
+
+   .tabcontent {
+       color: $secondary;
+       display: none;
+       padding: 70px 20px;
+       height: 100%;
+   }
+
+   #Home,
+   #News,
+   #Contact {
+       background-color: $secondary;
+       color: $primary;
+   }
+
+   .pbold {
+       font-weight: bold;
+   }
+
+
+   .cstm>div {
+       width: 9em;
+       height: 2em;
+       background-color: $primary;
+       text-align: center;
+       border: 0.5px solid $secondary;
+       a {
+           text-decoration: none;
+           color: $secondary;
+           font-family: Crushed;
+           font-size: 20px;
+           text-transform: uppercase;
+           display: block;
+           margin: auto;
+           margin-top: 0.2em;
+       }
+   }
+
+
+   .custombtn2 {
+       text-align: center;
+       border: 0.5px solid $secondary;
+       display: block;
+       margin:auto;
+       a {
+           text-decoration: none;
+           width:12em;
+           color: $secondary;
+           background-color: $primary;
+           font-family: Crushed;
+           font-size: 20px;
+           text-transform: uppercase;
+           padding:0.2em;
+           padding-left:2em;
+           padding-right:2em;
+           margin: 2em auto;
+
+       }
+   }
+
+   .custombtn3 {
+       text-align: center;
+       border: 0.5px solid $secondary;
+       display: block;
+       margin: 5em auto;
+       a {
+           text-decoration: none;
+            background-color: $primary;
+           color: $secondary;
+           font-family: Crushed;
+           font-size: 20px;
+           text-transform: uppercase;
+           padding:1em;
+       }
+   }
+
+   /*for small tablet - inclusive*/
+
+   @media only screen and (min-width: $bp1) {}
+   /*for tablet - inclusive*/
+
+   @media only screen and (min-width: $bp2) {}

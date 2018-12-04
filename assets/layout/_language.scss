@@ -1,0 +1,22 @@
+.l-language {
+	&>ul {
+		display:flex;
+	}
+
+}
+
+
+/*for small tablet - inclusive*/
+@media only screen and (min-width : $bp1) {	
+	.l-language {
+	}
+
+}
+
+/*for tablet - inclusive*/
+@media only screen and (min-width : $bp2) {
+	.l-language {
+  
+	}
+	
+}

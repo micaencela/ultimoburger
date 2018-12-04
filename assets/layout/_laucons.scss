@@ -1,0 +1,101 @@
+.l-laucons {
+    margin-top: 10em;
+    .launch-text {
+        margin: auto;
+        max-width: 15em;
+    }
+}
+
+.l-laucons {
+    .launch-logo {
+        img {
+            display: block;
+            width: 80%; // border: 1px red solid;
+            height: auto;
+            margin: auto;
+        }
+    }
+}
+
+.l-stacons {
+    margin-top: 6em;
+    .start-text {
+        margin-bottom: 0;
+    }
+    .start-text>a {
+        padding: 1em;
+        padding-top: 2.5em;
+        text-align:center;    
+        width:10em;
+        padding-bottom: 2.5em;
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+/*for small tablet - inclusive*/
+
+@media only screen and (min-width: $bp1) {
+    .l-laucons {
+        margin-top: 3em;
+    }
+
+
+    .l-stacons {
+        margin-top: 4em;
+        margin-bottom: 4em;
+        .start-text>a {
+            margin: auto;
+            padding: 1.5em;
+            display: block;
+            max-width: 5.5em;
+        }
+    }
+}
+
+.l-laucons {
+    max-width: $bp2;
+    margin: 0 auto;
+    .launch-logo {
+        img {
+            max-width: 34em; // border: 1px red solid;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width: $bp2) {
+    .l-stacons {
+        max-width: $bp2;
+    }
+
+    .l-laucons {
+        max-width: $bp2;
+        .launch-logo {
+            img {
+                max-width: 38em; // border: 1px red solid;
+            }
+        }
+    }
+
+
+    .l-stacons {
+        .start-text>a {
+            margin: 0 auto;
+            padding: 2em;
+        }
+    }
+}

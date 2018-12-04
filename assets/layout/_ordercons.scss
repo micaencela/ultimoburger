@@ -1,0 +1,23 @@
+
+.l-order {
+	&-nav {
+		&-items {
+			margin:0;
+			padding-left:0;
+		}
+	}
+}
+
+.l-order {
+	&-header {
+		align-items: center;
+		a {
+			align-items: center;
+			margin:1em;
+		}
+	}
+}
+
+.orderdetails {
+	margin:2em;
+}

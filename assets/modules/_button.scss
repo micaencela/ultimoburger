@@ -1,0 +1,30 @@
+ .button1 {
+     background-color: $fifth;
+     border-radius: 2%;
+     text-align: center;
+     margin-top:1em;
+     a {
+         width: 3.5em;
+         padding:1em;
+         font-size: 28px;
+         text-decoration: none;
+         color: $secondary;
+         display: block;
+     }
+ }
+
+  .button2 {
+     background-color: $fifth;
+     border-radius: 2%;
+     text-align: center;
+     margin-top:1em;
+     max-width: 5em;
+     a {
+         width: 3em;
+         padding:1em;
+         font-size: 16px;
+         text-decoration: none;
+         color: $secondary;
+         display: block;
+     }
+ }

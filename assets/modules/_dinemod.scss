@@ -1,0 +1,67 @@
+.dine-body {
+    background-color: $primary;
+}
+
+.dine {
+    color: $secondary;
+    font-family: Crushed;
+    text-transform: uppercase;
+    font-size: 16px;
+    &-options {
+        li {
+            color: $secondary;
+            list-style-type: none;
+            font-family: Crushed;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.dine {
+    &-text {
+        font-size: 30px;
+    }
+}
+
+.dine {
+    &-logo>img {
+        height: auto;
+    }
+}
+
+.dine {
+    &-logo {
+        &-text {
+            font-size: 12px;
+        }
+    }
+}
+
+.l-back {
+    .backlink {
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    }
+}
+
+@media only screen and (min-width: $bp1) {
+    .dine {
+    &-logo {
+        &-text {
+            font-size: 16px;
+        }
+    }
+}
+}
+
+
+
+
+/*for tablet - inclusive*/
+
+@media only screen and (min-width: $bp2) {
+    .l-language {}
+}

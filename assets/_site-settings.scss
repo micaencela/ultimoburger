@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+// ----------------------
+// == Site settings
+// ----------------------
+
+// Fonts
+$font1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font2: Georgia, serif;
+
+// = Colors
+// -----------------------------
+
+// Colour Scheme
+$primary: #192334;
+$secondary: #ffffff;
+$third: #EBEBEB;
+$fourth: #939FB4;
+$fifth:#29374E;
+
+
+// = Grid
+// -----------------------------
+
+// Max width wrapper
+$wrapper-width: pxtoem(1140, 16);
+
+
+// = Breakpoints
+$bp1 : 40em;
+$bp2 : 60em;
+$bp3 : 80em;
+$bp4: 59em;
+
+// = Mixins
+// -----------------------
+
+@mixin h3 {
+        font-family:Crushed;
+        text-transform: uppercase;
+        text-align:center;
+        font-size:2em;
+        margin-bottom:0.4em;
+        margin-top:0.5em;
+}

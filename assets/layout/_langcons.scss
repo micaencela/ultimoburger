@@ -1,0 +1,29 @@
+.l-langcons {
+    margin-top: 1em;
+    margin-bottom:5em;
+    ul {
+    	padding-left:1em;
+    }
+    ul>li{
+    	margin-left:0.5em;
+    }
+}
+
+
+/*for small tablet - inclusive*/
+@media only screen and (min-width : $bp1) {	
+	.l-langcons {
+        margin-bottom:4em;
+   
+	}
+
+}
+
+/*for tablet - inclusive*/
+@media only screen and (min-width : $bp2) {
+	.l-langcons {
+        margin-bottom:3em;
+
+	}
+	
+}
